@@ -19,11 +19,10 @@ using namespace std;
  * \return int Returns 0 on successful execution.
  */
 int main() {
-  int mm; // Local variable to demonstrate size
+  int iMM; // Local variable to demonstrate size
 
   // Display the size of various data types
-  cout << "Godzina prawdy. W tym komputerze "
-       << "poszczegolne typy\n"
+  cout << "Godzina prawdy. W tym komputerze poszczegolne typy\n"
        << "maja nastepujace rozmiary w bajtach: \n";
 
   cout << "typ char        : \t" << sizeof(char) << " bajt" << endl;
@@ -35,7 +34,7 @@ int main() {
   cout << "typ long double : \t" << sizeof(long double) << " bajtów" << endl;
 
   // Display the size of the local variable
-  cout << "Nasz obiekt lokalny mm (tutaj int) ma rozmiar : " << sizeof(mm)
+  cout << "Nasz obiekt lokalny iMM (tutaj int) ma rozmiar : " << sizeof(iMM)
        << " bajty/ów" << endl;
 
   return 0;

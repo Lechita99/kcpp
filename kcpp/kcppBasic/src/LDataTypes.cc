@@ -34,9 +34,6 @@ int main() {
   fVarB = 7.3; // Double assigned to float (implicit conversion)
   cout << "fVarB: " << fVarB << endl; // Output: 7.3
 
-   char fVarD0[] =
-      "Tutaj jakis napis"; // Declaration with automatic length determination
-  cout << "fVarD1: " << fVarD0 << endl;
   //--- Character array (string) demonstration
   char fVarC[10]; // Declaration of a character array with a length of 10
 
@@ -66,7 +63,7 @@ int main() {
 
   //------------------------------------------------------------------------
   // Uncomment the following section to print character arrays
-  cout << "fVarD0: " << fVarD0 << endl;
+
   cout << "fVarD1: " << fVarD1 << endl;
   cout << "fVarD2: " << fVarD2 << endl;
   // cout << "fVarE: " << fVarE << endl;
