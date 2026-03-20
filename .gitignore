@@ -1,5 +1,6 @@
-main
-main.dSYM/
-.vscode/
-*.o
-*.out
+build
+kcppBasic/build
+kcppBasic.build
+.vscode
+.cache
+
